@@ -1,10 +1,10 @@
-# 📊 India Unemployment Rate Analysis (2020)
+# India Unemployment Rate Analysis (2020)
 
 A data analysis project exploring India's unemployment trends during 2020, with a focus on the COVID-19 pandemic's impact on employment across regions.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── Unemployment analysis.py           # Main analysis script
@@ -21,7 +21,7 @@ A data analysis project exploring India's unemployment trends during 2020, with 
 
 ---
 
-## 📌 Features
+## Features
 
 - **Unemployment Trend Analysis** — Line chart of national unemployment rate across 2020, with the initial COVID-19 lockdown period highlighted
 - **Urban vs Rural Comparison** — Boxplot comparing unemployment distribution between urban and rural areas
@@ -31,7 +31,7 @@ A data analysis project exploring India's unemployment trends during 2020, with 
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Install dependencies with:
 
@@ -49,7 +49,7 @@ pip install pandas matplotlib seaborn plotly networkx scipy
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Clone the repository and navigate to the project folder:
 
@@ -74,7 +74,7 @@ python analysis.py
 
 ---
 
-## 📂 Datasets
+## Datasets
 
 | File | Description |
 |---|---|
@@ -85,7 +85,7 @@ python analysis.py
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 - Unemployment spiked sharply during the **initial lockdown period (April–June 2020)**, with some regions exceeding 70%
 - A statistically significant difference was found between lockdown and recovery periods (p < 0.05)
@@ -94,13 +94,13 @@ python analysis.py
 
 ---
 
-## ⚠️ Known Issues & Fixes
+## Known Issues & Fixes
 
 - **Swapped lat/lon in CSV** — The raw dataset has latitude and longitude values in reversed columns. The `plot_animated_map()` function swaps them back automatically before plotting.
 - **Animation frame ordering** — Animation frames use `YYYY-MM` format internally to ensure chronological ordering, then display human-readable month names on hover.
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and analytical purposes. Dataset sourced from public domain unemployment records.
